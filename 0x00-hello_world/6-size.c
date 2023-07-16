@@ -1,5 +1,13 @@
 #include <stdio.h>
+
+/**
+ * main - prints the sizez of differnt data typs in C
+ *
+ * Return:0
+ */
+
 int main(void)
+
 {
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
 	printf("Size of an int: %zu byte(s)\n", sizeof(int));
