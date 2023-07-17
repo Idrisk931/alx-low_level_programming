@@ -7,27 +7,16 @@
  * Return:0
  *
  */
+int main() {
+    char letter;
 
-int main(void)
-{
-	int digit1, digit2;
+    // Print lowercase alphabet using putchar
+    for (letter = 'a'; letter <= 'z'; letter++) {
+        putchar(letter);
+    }
 
-	for (digit1 = 0; digit1 < 10; digit1++)
-	{
-		for (digit2 = 0; digit2 < 10; digit2++)
-		{
-			putchar((digit1 % 10) + '0');
-			putchar((digit2 % 10) + '0');
+    // Print a new line using putchar
+    putchar('\n');
 
-			if (digit1 == 9 && digit2 == 9)
-				continue;
-
-			putchar(',');
-			putchar(' ');
-		}
-	}
-
-	putchar('\n');
-
-	return (0);
+    return 0;
 }
