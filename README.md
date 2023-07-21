@@ -1,1 +1,1 @@
-The following project is on c basics
+This repo contains tasks on alx  low level language
