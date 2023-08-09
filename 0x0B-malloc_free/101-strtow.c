@@ -62,7 +62,7 @@ char **strtow(char *str)
 				while (start < end)
 					*power++ = str[start++];
 				*power = '\0';
-				black[k] = power - c;
+				black[g] = power - c;
 				g++;
 				c = 0;
 			}
@@ -71,7 +71,7 @@ char **strtow(char *str)
 			start = i;
 	}
 
-	black[k] = NULL;
+	black[g] = NULL;
 
 	return (black);
 }
